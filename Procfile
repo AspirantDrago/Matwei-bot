@@ -1,1 +1,1 @@
-python3 baza_dann.py
+worker: python baza_dann.py
