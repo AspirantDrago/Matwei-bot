@@ -16,5 +16,4 @@ def info_page():
 
 
 if __name__ == '__main__':
-    port_run = int(os.environ.get("PORT", 80))
-    app.run(host='0.0.0.0', port=port_run)
+    app.run(host='0.0.0.0', port=80)
