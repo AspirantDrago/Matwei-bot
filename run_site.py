@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def start_bot_page():
-    os.startfile('baza_dann.py')
+    import main
     return 'Бот запущен!'
 
 
