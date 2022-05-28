@@ -1,2 +1,2 @@
+web: python run-site.py
 worker: python baza_dann.py
-web: python baza_dann.py
