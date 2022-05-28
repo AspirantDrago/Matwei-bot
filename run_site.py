@@ -5,13 +5,13 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def main():
+def start_bot_page():
     os.startfile('baza_dann.py')
     return 'Бот запущен!'
 
 
 @app.route('/index')
-def main():
+def info_page():
     return 'Это бот Матвея!'
 
 
